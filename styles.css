@@ -1,0 +1,75 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    padding: 20px 20px;
+  }
+  code{
+    color: blue;
+  }
+  .example{
+    background-color: fuchsia;
+    color: red;
+  }
+  #exam{
+    background-color:red;
+    color: blueviolet;
+  }
+  #comment{
+    color: green;
+  }
+
+  
+    @media only screen and (max-width: 600px) {
+     .doc#navbar{
+        width: 100%;
+        position:static;
+      }
+      
+    
+  }
+/* navigation bar start */
+  #navbar{
+    background-color: #f1f1f1;
+    width: 20%;
+    height: 100vh;
+    float: left;
+    border: 1px solid #000;
+    position:fixed;
+    overflow:auto;    
+  }
+  
+  li a{
+    display: block;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-bottom: 1px solid black;
+    
+  } 
+  li:last-child{
+    border-bottom: none;
+  }
+
+  li a:hover{
+    background-color: #555;
+    color: white;
+  }
+/* navigation bar end */
+
+/*  Main Body start here */
+  #main-doc{
+    width: 80%;
+    float: right;
+    padding: 40px;
+    text-align: justify;
+    
+  }
+  #header_main{
+    text-align: center;
+    background-color: #555;
+  }
